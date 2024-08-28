@@ -1,0 +1,114 @@
+body {
+    color: #0c0c0c;
+}
+
+.cont-hero {
+  
+    /* Автоматическая подстройка под ширину окна браузера */
+    max-width: 1440px;
+    /* Ограничение максимальной ширины */
+    min-height: 750px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    /* Центрирование контейнера по горизонтали */
+}
+
+.hero-section {
+    padding-top: 20px;
+    max-height: 750px;
+    overflow: hidden;
+    /* Обеспечивает, что содержимое не выходит за пределы контейнера */
+}
+
+.image-container {
+    position: absolute;
+    /* Абсолютное позиционирование внутри родительского контейнера */
+    top: 0;
+    right: 50px;
+    width: 938px;
+    height: 750px;
+    overflow: hidden;
+    /* Прячет выходящее за границы содержимое */
+    z-index: 3;
+    /* Расположен ниже заголовка */
+}
+
+.image-container img {
+    width: 100%;
+    /* Растягивает изображение по ширине контейнера */
+    height: 100%;
+    /* Растягивает изображение по высоте контейнера */
+    object-fit: cover;
+    /* Изображение заполняет контейнер, сохраняя пропорции */
+    object-position: left center;
+    /* Фокус на левой части изображения */
+}
+
+.hero-title {
+    position: relative;
+    /* Относительное позиционирование, чтобы слой был поверх изображения */
+    z-index: 100;
+    /* Заголовок размещается поверх изображения */
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 1.43182;
+    color: #000;
+    min-width: 510px;
+    padding-left: 50px;
+    /* Паддинг слева для отступа */
+    padding-top: 150px;
+    max-height: 282px;
+}
+
+.beauty {
+    display: block;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 1.55556;
+    color: #000;
+    max-width: 500px;
+    max-height: 282px;
+}
+
+.button-hero {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #68513f;
+    margin-left: 50px;
+    background: #f1ebe7;
+    border: 1px solid #dacec6;
+    width: 143px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #589b7ac2;
+    color: #000;
+}
+
+.you {
+    position: absolute;
+    /* Абсолютное позиционирование текста "you" */
+    font-weight: 400;
+    font-size: 175px;
+    line-height: 1.04;
+    text-align: right;
+    font-style: italic;
+    color: #589b7ac2;
+    font-family: 'Sevillana', cursive;
+    font-weight: 700;
+    transform: rotate(6deg);
+    /* Наклон текста */
+    z-index: 1000;
+    /* Этот текст должен быть на переднем плане */
+    left: 423px;
+}

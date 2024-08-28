@@ -1,0 +1,158 @@
+.second-section {
+    min-height: 946px;
+
+    /* Ensure that child elements with absolute positioning are correctly placed */
+}
+
+.cont-second {
+     position: relative;
+
+    text-align: center;
+    height: 946px;
+
+}
+
+.cont-second {
+    min-width: 1440px;
+    width: 1440px;
+  
+  
+    overflow: hidden;
+    
+    /* Центрирует контейнер по горизонтали */
+}
+
+.second-title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+
+    font-family: "Abhaya Libre", sans-serif;
+}
+
+.second-span {
+    display: block;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
+}
+
+.skincare {
+    font-size: 137px;
+    line-height: 0.82;
+    text-align: center;
+    color: #589b7ac2;
+    transform: rotate(-5deg);
+    font-family: 'Sevillana', cursive;
+    font-weight: 700;
+    margin: -24px 0 20px;
+}
+
+.text-section {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+
+.second-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    max-width: 649px;
+}
+
+.second-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    /* Centers text inside the link */
+    color: #68513f;
+    border: 1px solid #dacec6;
+    border-radius: 73px;
+    padding: 13px 21px;
+    background: #f1ebe7;
+
+    /* Shortened transition duration for better responsiveness */
+    transition: background-color 0.3s, color 0.3s;
+
+    /* Centering properties */
+
+    display: inline-block;
+    /* Adjust margins */
+    margin: 48px auto 0;
+    /* Center with auto margins on left and right */
+    max-width: 95px;
+    /* Limit the width */
+    max-height: 45px;
+    /* Limit the height */
+}
+
+.second-link:hover,
+.second-link:focus {
+    background-color: #589b7ac2;
+    color: #000;
+}
+
+img {
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.first-img {
+    top: 117px;
+    left: 86px;
+    width: 221px;
+    height: 183px;
+    animation: fadeIn 3s ease-in-out 1ms infinite;
+}
+
+.second-img {
+    top: 21px;
+    right: 209px;
+    width: 159px;
+    height: 201px;
+    animation: fadeIn 3s ease-in-out 2s infinite;
+}
+
+.third-img {
+    top: 266px;
+    right: 65px;
+    width: 221px;
+    height: 114px;
+    animation: fadeIn 3s ease-in-out 3s infinite;
+}
+
+.fourth-img {
+    top: 488px;
+    left: 94px;
+    width: 221px;
+    height: 220px;
+    animation: fadeIn 3s ease-in-out 4s infinite;
+}
+
+.fifth-img {
+    top: 569px;
+    right: 152px;
+    width: 222px;
+    height: 220px;
+    animation: fadeIn 3s ease-in-out 5s infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

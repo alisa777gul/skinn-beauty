@@ -1,0 +1,122 @@
+:root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@font-face {
+  font-family: 'STSong-Light';
+  src: url('/fonts/STSong-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'STSong-Regular';
+  src: url('/fonts/STSong-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'STSong-Bold';
+  src: url('/fonts/STSong-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Regular */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Regular.woff2') format('woff2'),
+    url('/fonts/StyleScript-Regular.woff') format('woff'),
+    url('/fonts/StyleScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Bold.woff2') format('woff2'),
+    url('/fonts/StyleScript-Bold.woff') format('woff'),
+    url('/fonts/StyleScript-Bold.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Italic.woff2') format('woff2'),
+    url('/fonts/StyleScript-Italic.woff') format('woff'),
+    url('/fonts/StyleScript-Italic.ttf') format('truetype');
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-BoldItalic.woff2') format('woff2'),
+    url('/fonts/StyleScript-BoldItalic.woff') format('woff'),
+    url('/fonts/StyleScript-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold weight */
+  font-style: italic;
+}
+
+body {
+  font-family: 'Inter', sans-serif;;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+    overflow-x: hidden;
+  background-color: #b6d6c99c;
+}
+
+main {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрирование по горизонтали */
+    justify-content: center;
+    /* Центрирование по вертикали */
+  flex-grow: 1;
+}
+main:has(.back-link) {
+  text-align: center;
+}
+
+
+body {
+
+
+  color: #0c0c0c;
+}
+
+.container {
+ width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+

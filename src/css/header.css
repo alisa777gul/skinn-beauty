@@ -1,0 +1,99 @@
+/* General Header Styling */
+.header-container{
+  padding: 16px 0;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+
+/* Navigation Styling */
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Link Navigation Styling */
+.link-nav {
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+/* Cart Link Styling */
+.link .cart {
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.15294;
+  color: #000;
+}
+
+/* Logo Styling */
+.logo-web {
+  /* Add styles for the logo if needed */
+}
+
+/* Navigation Link Styling */
+.link .alink {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.15294;
+  color: #222;
+  transition: color 0.3s;
+  /* Adjusted for smooth color transition */
+  transition:  color 0.3s;
+}
+
+/* Cart Item Styling */
+.cart-item {
+  background: #e7ded8;
+  width: 24px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 2.18182;
+  text-align: center;
+  color: #68513f;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+
+
+/* Hover and Focus Effects for Links */
+.link-nav .alink:hover,
+.link-nav .alink:focus {
+  color: #589b7ac2;
+}
+
+
+
+/* Remove unnecessary or incorrect selectors */
+.link .alink:hover,
+.link .alink:focus {
+  color: #589b7ac2;
+}
+
+.link {
+  position: relative;}
+
+.link:hover .link .alink::after,
+.link:focus .link .alink::after,
+.link:hover::after,
+.link:focus::after {
+  content: '';
+
+  width: 6px;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  height: 6px;
+  background-color: #589b7ac2;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
