@@ -1,4 +1,4 @@
-.products-list{
+.products-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,50 +6,88 @@
     gap: 14px;
     margin-top: 50px;
     max-width: 1340px;
+    flex-wrap: wrap;
+    /* Allows items to wrap on smaller screens */
 }
 
-.cont-products{
+.cont-products {
     max-width: 1440px;
+    margin: 0 auto;
+    height: 832px;
+    /* Center the container */
 }
 
-.products-section{
-    height: 837px;
+.products-section {
+    height: auto;
+    /* Adjust height to content */
     padding-top: 90px;
 }
 
-.products-item{
-    display: flex;
- justify-content: center;
-padding: 10px;
-padding-bottom: 0;
-
-    min-width: 325px;
-        height: 482px;
-        background: #a8cfbcc2;
-        border-radius: 10px;
+.products-item {
+   
+   
+    flex: 1 1 calc(25% - 14px);
+ 
+  height: 482px;
+    background: #a8cfbcc2;
+    border-radius: 10px;
+    text-align: center;
+    /* Center text in product item */
 }
+
+
+    .img-center {
+            display: flex;
+            justify-content: center;
+    
+            margin-bottom: 20px;
+        }
+
+        .product-type{display: block;
+            font-weight: 400;
+                font-size: 13px;
+                line-height: 1.50769;
+                text-transform: uppercase;
+                color: #000;
+        }
+
+.product-price{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.39286;
+        color: #000;
+}
+
+.product-name{font-weight: 400;
+font-size: 19px;
+line-height: 1.36842;
+color: #000;}
 
 .products-item img {
-border-radius: 0;
-
+padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    /* Added radius for consistency with item */
+    max-width: 100%;
+    height: auto;
+display: block;
+    /* Ensure image maintains aspect ratio */
 }
 
-.products-text{
+.products-text {
     font-weight: 600;
-        font-size: 65px;
-        line-height: 1.50769;
-        text-align: center;
-        color: #000;
-        font-family: "Abhaya Libre", sans-serif;
-        margin-top: 5px;
+    font-size: 65px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    font-family: "Abhaya Libre", sans-serif;
+    margin-top: 5px;
 }
 
-.products-title{
+.products-title {
     font-weight: 400;
-        font-size: 137px;
-        line-height: 0.81752;
-        text-align: center;
-        color: #589b7ac2;
-      
+    font-size: 137px;
+    line-height: 0.82;
+    text-align: center;
+    color: #589b7ac2;
     font-family: 'Sevillana', cursive;
 }
