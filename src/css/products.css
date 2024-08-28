@@ -1,0 +1,55 @@
+.products-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 50px;
+    max-width: 1340px;
+}
+
+.cont-products{
+    max-width: 1440px;
+}
+
+.products-section{
+    height: 837px;
+    padding-top: 90px;
+}
+
+.products-item{
+    display: flex;
+ justify-content: center;
+padding: 10px;
+padding-bottom: 0;
+
+    min-width: 325px;
+        height: 482px;
+        background: #a8cfbcc2;
+        border-radius: 10px;
+}
+
+.products-item img {
+border-radius: 0;
+
+}
+
+.products-text{
+    font-weight: 600;
+        font-size: 65px;
+        line-height: 1.50769;
+        text-align: center;
+        color: #000;
+        font-family: "Abhaya Libre", sans-serif;
+        margin-top: 5px;
+}
+
+.products-title{
+    font-weight: 400;
+        font-size: 137px;
+        line-height: 0.81752;
+        text-align: center;
+        color: #589b7ac2;
+      
+    font-family: 'Sevillana', cursive;
+}
