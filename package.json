@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/salon-krasy/",
+    "build": "vite build --base=/skinn-beauty/",
     "preview": "vite preview"
   },
   "devDependencies": {

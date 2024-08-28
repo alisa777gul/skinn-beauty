@@ -17,6 +17,8 @@
 }
 
 
+
+
 @font-face {
   font-family: 'STSong-Light';
   src: url('/fonts/STSong-Light.ttf') format('truetype');
@@ -89,7 +91,7 @@ body {
   min-height: 100vh;
   margin: 0;
     overflow-x: hidden;
-  background-color: #b6d6c99c;
+  background-color: #afc2ba80;
 }
 
 main {
