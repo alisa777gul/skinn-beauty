@@ -63,6 +63,7 @@
     font-size: 14px;
     line-height: 1.39286;
     color: #000;
+    margin-left: auto;
 }
 
 .product-name {
@@ -98,7 +99,7 @@ margin-left: 15px;
 .prod{
     display: flex;
     flex-direction: row;
-    gap:131px;
+ 
 justify-content: start;
 margin-left: 15px;
 
