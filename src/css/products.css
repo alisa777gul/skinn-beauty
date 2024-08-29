@@ -13,7 +13,7 @@
 .cont-products {
     max-width: 1440px;
     margin: 0 auto;
-    height: 832px;
+
     /* Center the container */
 }
 
@@ -21,6 +21,7 @@
     height: auto;
     /* Adjust height to content */
     padding-top: 90px;
+    padding-bottom: 120px;
 }
 
 .img-center {
