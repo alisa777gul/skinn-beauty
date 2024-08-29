@@ -1,0 +1,11 @@
+svg{display: block;
+    stroke: black;
+    fill: black;
+}
+
+.list-icons{
+    max-width: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
