@@ -1,6 +1,5 @@
-svg{display: block;
-    stroke: black;
-    fill: black;
+.advert-section{
+    margin-bottom: 200px;
 }
 
 .list-icons{
@@ -8,4 +7,17 @@ svg{display: block;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;margin: 0 auto;
 }
+
+.advert-text{
+font-weight: 400;
+font-size: 28px;
+line-height: 1.4;
+text-align: center;
+color: #000;
+margin: 0 auto;
+max-width: 832px;
+margin-bottom: 56px;
+}
+
