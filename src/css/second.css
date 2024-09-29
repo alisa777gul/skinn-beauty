@@ -116,7 +116,7 @@
     left: 86px;
     width: 221px;
     height: 183px;
-    animation: fadeIn 3s ease-in-out 0ms infinite;
+ 
 }
 
 .second-img {
@@ -124,7 +124,7 @@
     right: 209px;
     width: 159px;
     height: 201px;
-    animation: fadeIn 3s ease-in-out 1s infinite;
+
 }
 
 .third-img {
@@ -132,7 +132,7 @@
     right: 65px;
     width: 221px;
     height: 114px;
-    animation: fadeIn 3s ease-in-out 3s infinite;
+
 }
 
 .fourth-img {
@@ -140,7 +140,7 @@
     left: 94px;
     width: 221px;
     height: 220px;
-    animation: fadeIn 3s ease-in-out 2s infinite;
+
 }
 
 .fifth-img {
@@ -148,15 +148,24 @@
     right: 152px;
     width: 222px;
     height: 220px;
-    animation: fadeIn 3s ease-in-out 5s infinite;
+  
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
 
-    to {
-        opacity: 1;
-    }
+
+.cont-second img {
+    opacity: 0;
+    /* Изначально изображения невидимы */
+    transition: opacity 1s ease-in-out;
+    /* Плавное изменение прозрачности */
+}
+
+.cont-second img.show {
+    opacity: 1;
+    /* Показываем изображение */
+}
+
+.cont-second img.hide {
+    opacity: 0;
+    /* Скрываем изображение */
 }

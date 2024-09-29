@@ -1,5 +1,7 @@
 /* General Header Styling */
 .header-container {
+
+      transition: top 0.3s;
   padding-bottom: 16px;
   padding-top: 16px;
   margin: 0 auto;
@@ -15,6 +17,7 @@
   background-color: #fff;
   /* Фон для видимости при прокрутке */
 }
+
 /* Navigation Styling */
 .navigation {
   display: flex;
@@ -30,7 +33,7 @@
 }
 
 /* Cart Link Styling */
-.link .cart {
+.cart {
   margin-left: auto;
   font-weight: 400;
   font-size: 17px;
@@ -44,14 +47,13 @@
 }
 
 /* Navigation Link Styling */
-.link .alink {
+.alink {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.15294;
   color: #222;
-  transition: color 0.3s;
-  /* Adjusted for smooth color transition */
-  transition:  color 0.3s;
+  transition: color 0.3s ease;
+  /* Плавный переход цвета */
 }
 
 /* Cart Item Styling */
@@ -70,31 +72,16 @@
   margin-left: 8px;
 }
 
-
-
 /* Hover and Focus Effects for Links */
-.link-nav .alink:hover,
-.link-nav .alink:focus {
+.alink:hover,
+.alink:focus {
   color: #589b7ac2;
 }
 
-
-
-/* Remove unnecessary or incorrect selectors */
-.link .alink:hover,
-.link .alink:focus {
-  color: #589b7ac2;
-}
-
-.link {
-  position: relative;}
-
-.link:hover .link .alink::after,
-.link:focus .link .alink::after,
-.link:hover::after,
-.link:focus::after {
+/* Add dot under hovered link */
+.link:hover .alink::after,
+.link:focus .alink::after {
   content: '';
-
   width: 6px;
   position: absolute;
   left: 50%;
@@ -105,3 +92,8 @@
   transform: translateX(-50%);
 }
 
+/* Optional: Add padding/margins to links for better UX */
+.link {
+  position: relative;
+  padding: 8px 16px;
+}
