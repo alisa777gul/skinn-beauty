@@ -61,6 +61,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "SnellBT-Bold";
+
+  src: url("../fonts/SnellBT-Bold.otf") format("truetype");
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SnellBT-Regular";
+
+  src: url("../fonts/SnellBT-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 /* Italic */
 @font-face {
   font-family: 'Style Script';
@@ -91,7 +107,7 @@ body {
   min-height: 100vh;
   margin: 0;
     overflow-x: hidden;
-  background-color: #afc2ba80;
+  background-color: #abacaab1;
 }
 
 main {

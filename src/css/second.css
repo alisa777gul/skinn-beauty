@@ -45,27 +45,31 @@
     font-size: 137px;
     line-height: 0.82;
     text-align: center;
-    color: #589b7ac2;
-    transform: rotate(-5deg);
-    font-family: 'Sevillana', cursive;
-    font-weight: 700;
-    margin: -24px 0 20px;
+    color: #013220;
+    transform: rotate(-15deg);
+    font-family: 'SnellBT-Regular', cursive;
+    font-weight: normal;
+    margin: -45px 0 20px;
 }
 
 .text-section {
     position: absolute;
     top: 25%;
-    right: 25%;
+    right: 27%;
+    
 }
 
-.second-text {
+.second-text 
+{
+    padding-top: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
     text-align: center;
     color: #000;
     margin: 0 auto;
-    max-width: 649px;
+    max-width:600px;
+    min-height: 1000px;
 }
 
 .second-link {

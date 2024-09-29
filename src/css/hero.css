@@ -27,6 +27,7 @@ body {
     top: 0;
     right: 50px;
     width: 938px;
+    border-radius: 10px;
     height: 750px;
     overflow: hidden;
     /* Прячет выходящее за границы содержимое */
@@ -99,12 +100,12 @@ body {
     position: absolute;
     /* Абсолютное позиционирование текста "you" */
     font-weight: 400;
-    font-size: 175px;
+    font-size: 200px;
     line-height: 1.04;
     text-align: right;
     font-style: italic;
-    color: #589b7ac2;
-    font-family: 'Sevillana', cursive;
+    color: #013220;
+    font-family: 'SnellBT-Bold', cursive;
     font-weight: 700;
     transform: rotate(6deg);
     /* Наклон текста */
