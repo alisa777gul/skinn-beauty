@@ -1,12 +1,20 @@
 /* General Header Styling */
-.header-container{
-  padding: 16px 0;
+.header-container {
+  padding-bottom: 16px;
+  padding-top: 16px;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
-
+  width: 100%;
+  /* Полная ширина контейнера */
+  max-height: 60px;
+  border-bottom: 1px solid #918e6cca;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  /* Фон для видимости при прокрутке */
 }
-
 /* Navigation Styling */
 .navigation {
   display: flex;
