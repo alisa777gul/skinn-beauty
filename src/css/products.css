@@ -217,7 +217,7 @@ white-space: nowrap;
     left: calc(100% - 200px);
     
 
-animation: moveCart 2s ease-in-out infinite;
+animation: moveCart 3s ease-in-out infinite;
 /* Infinite animation */
 }
 
@@ -232,9 +232,12 @@ animation: moveCart 2s ease-in-out infinite;
         left: calc(100% - 200px);
      
     }
+75%{
+    left: 35%;
+}
 
     100% {
-        left: 35%;
+        left: 0;
   
     }
 }
